@@ -36,7 +36,7 @@ header {
     height: 95vh;
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.3)), url(../static/westlake.jpg);
     background-size: cover; /* adjusts the width to the viewport */
-    background-position: bottom; /* fixes the background image at the top, so cropping due to resizing of the screen will crop from bottom */
+    background-position: top; /* fixes the background image at the top, so cropping due to resizing of the screen will crop from bottom */
     position: relative;
 }
 
@@ -80,5 +80,8 @@ header {
     margin: 0 5px 0 5px;
 }
 
+.external-links a {
+    color: white;
+}
 
 
