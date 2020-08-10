@@ -25,7 +25,7 @@ body {
     margin: 0 25px;
 }
 
-.navbar a {
+a {
     color:#fff;
     font-weight: 300;
     text-decoration: none;
