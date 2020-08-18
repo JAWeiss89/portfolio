@@ -26,6 +26,10 @@ body {
     margin: 0 20px;
 }
 
+.navbar i {
+    font-size: .7em;
+}
+
 a {
     color:#fff;
     font-weight: 300;
@@ -134,7 +138,6 @@ li {
 
 #projects {
     background-color: rgb(243, 243, 243);
-    margin-bottom: 50px;
     padding: 20px 0 40px;
 }
 
@@ -168,6 +171,11 @@ img {
     width: 60%;
     height: 100%;
     padding: 10px 10px 10px 20px;
+    position: relative;
+}
+
+.project-text a {
+    color: rgb(34, 34, 34);
 }
 
 .project-techs {
@@ -185,8 +193,24 @@ img {
     font-size: .8em;
 }
 
+.project-links .fa-github{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #d2921f;
+    font-size: 1.2em;
+}
+
+.project-links .fa-link{
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    color: #7a7ad6;
+}
+
 #about {
-    
+    background-color: #ccbda8;
+    padding: 20px 0 40px;
 }
 
 .about-window {
