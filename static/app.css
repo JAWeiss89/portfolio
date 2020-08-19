@@ -67,6 +67,10 @@ header {
     width: 40%;
 }
 
+.right p {
+    font-weight: 300;
+}
+
 #name {
     font-weight: 400;
     color: #ffdfaf;
@@ -224,6 +228,7 @@ img {
 
 .about-text p {
     margin-bottom: 10px;
+    text-align: justify;
 }
 .about-img {
     width: 70%;
@@ -235,6 +240,7 @@ img {
 
 .about-img img {
     width: 50%;
+    max-width: 200px;
     border-radius: 100%;
 }
 
