@@ -24,6 +24,7 @@ body {
 .navbar li {
     display: inline;
     margin: 0 20px;
+    font-size: .8em;
 }
 
 .navbar i {
@@ -94,7 +95,7 @@ header {
 
 .section-title {
     font-weight: 300;
-    margin: 30px;
+    margin: 20px;
 }
 
 .container {
@@ -131,9 +132,7 @@ li {
 .skills-section {
     margin: auto;
     padding-top: 20px;
-    width: 25%;
     height: 250px;
-    /* text-align: center; */
 }
 
 #projects {
@@ -215,22 +214,60 @@ img {
 
 .about-window {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     width: 85%;
     margin-bottom: 40px;
 }
 
-.about-text {
-    width: 50%;
+.about-text p {
+    margin-bottom: 10px;
 }
 .about-img {
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .about-img img {
     width: 50%;
     border-radius: 100%;
 }
+
+@media only screen and (max-width: 800px) {
+    /* body {
+      background-color: lightblue;
+    } */
+
+    header {
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6)), url(../static/westlake.jpg);
+    }
+    .left {
+        display: none;
+    }
+    
+    .right {
+
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+      .skills-section {
+          margin: 0 40px 0 0;
+      }
+  }
+
+  @media only screen and (max-width: 500px) {
+      /* body {
+          background-color: rgb(138, 199, 138);
+      } */
+
+      .navbar li {
+        margin: 0 10px;
+    }
+  }
